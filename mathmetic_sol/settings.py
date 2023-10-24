@@ -9,6 +9,7 @@ https://docs.djangoproject.com/en/4.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
+import os
 
 from pathlib import Path
 
@@ -79,12 +80,12 @@ WSGI_APPLICATION = 'mathmetic_sol.wsgi.app'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'URL': os.getenv('postgres://postgres:EADE5f-6AEC2CaDB+G2Dg-DdfD*B+G2A@viaduct.proxy.rlwy.net:37585/railway'),
-        'NAME': os.getenv('railway'),
-        'USER': os.getenv('postgres'),
-        'PASSWORD': os.getenv('EADE5f-6AEC2CaDB+G2Dg-DdfD*B+G2A'),
-        'HOST': os.getenv('viaduct.proxy.rlwy.net'),
-        'PORT': os.getenv(37585),
+        'URL': 'postgres://postgres:EADE5f-6AEC2CaDB+G2Dg-DdfD*B+G2A@viaduct.proxy.rlwy.net:37585/railway',
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'EADE5f-6AEC2CaDB+G2Dg-DdfD*B+G2A',
+        'HOST': 'viaduct.proxy.rlwy.net',
+        'PORT': 37585,
     }
 }
 
@@ -134,7 +135,6 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-import os
 from django.core.wsgi import get_wsgi_application
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "django_blog.settings")
 application = get_wsgi_application()
