@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-6a*i9^#%(bu40+t7ebi96+26@ke#qp^xun&+9%gf79(kxkwm+1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
 
 
 # Application definition
@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'mathmetic_sol.wsgi.application'
+WSGI_APPLICATION = 'mathmetic_sol.wsgi.app'
 
 
 # Database
@@ -129,4 +129,8 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-
+import os
+from django.core.wsgi import get_wsgi_application
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "django_blog.settings")
+application = get_wsgi_application()
+app = application
