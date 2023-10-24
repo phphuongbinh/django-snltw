@@ -1,0 +1,33 @@
+[
+    {
+        "tenHs": "Nguyen Van A",
+        "ID_HS": 1,
+        "ngaySinh": "25/10/2008",
+        "sdtHs": 12345678,
+        "ID_LOP": 1
+    },
+    {
+        "tenHs": "Nguyen Van B",        
+        "ID_HS": 2,
+        "ngaySinh": "25/10/2008",
+        "sdtHs": 12345678,
+        "ID_LOP": 2
+    },
+    {
+        "tenHs": "Nguyen Van C",        
+        "ID_HS": 2,
+        "ngaySinh": "25/10/2008",
+        "sdtHs": 12345678,
+        "ID_LOP": 2
+    }
+    ,
+    {
+        "tenHs": "Nguyen Van D",        
+        "ID_HS": 2,
+        "ngaySinh": "25/10/2008",
+        "sdtHs": 12345678,
+        "ID_LOP": 2
+    }
+]
+
+

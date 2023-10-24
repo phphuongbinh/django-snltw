@@ -1,0 +1,38 @@
+[
+    {
+        "ID_GV": 1,
+        "ID_LOP": 2
+    },
+    {
+        "ID_GV": 1,
+        "ID_LOP": 3
+    },
+    {
+        "ID_GV": 1,
+        "ID_LOP": 5
+    },
+    {
+        "ID_GV": 1,
+        "ID_LOP": 1
+    },
+    {
+        "ID_GV": 2,
+        "ID_LOP": 2
+    },
+    {
+        "ID_GV": 2,
+        "ID_LOP": 1
+    },
+    {
+        "ID_GV": 2,
+        "ID_LOP": 4
+    },
+    {
+        "ID_GV": 2,
+        "ID_LOP": 5
+    },
+    {
+        "ID_GV": 2,
+        "ID_LOP": 2
+    }
+]
