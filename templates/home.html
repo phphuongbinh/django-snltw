@@ -1,8 +1,41 @@
 <!-- prettier-ignore -->
-{% extends "base.html" %} {% block title %}Home Page{% endblock title %}  
 
+{% extends "base.html" %} {% load static %} 
+{% block title %}Home Page{%endblock title %} 
 {% block content %}
 
-<h1>Test</h1>
+<div class="container mt-5 d-flex gap-5">
+  <div class="card" style="width: 18rem">
+    <img
+      src="https://sgp1.digitaloceanspaces.com/teky-prod/teky-edu-vn/media/marketing_featured_image/2022/05/31/_DSC6753.JPG"
+      class="card-img-top"
+      alt="..."
+    />
+    <div class="card-body">
+      <h5 class="card-title">Siêu nhân Lập trình Web</h5>
+      <p class="card-text">
+        Phát triển tư duy ứng dụng, sáng tạo cá tính và nuôi dưỡng tinh thần
+        doanh nhân công nghệ trong thời đại 4.0; Theo chuẩn Kiến thức Khoa học
+        máy tính CSTA cho K12 của Mỹ
+      </p>
+      <a href="#" class="btn btn-primary">Learn now!</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem">
+    <img
+      src="https://sgp1.digitaloceanspaces.com/teky-prod/teky-edu-vn/media/marketing_featured_image/2022/04/28/Robot_Thumbnail_Resized-e1574666381369.jpeg"
+      class="card-img-top"
+      alt="..."
+    />
+    <div class="card-body">
+      <h5 class="card-title">Mầm non công nghệ 2</h5>
+      <p class="card-text">
+        Ươm mầm phát triển tư duy logic và sáng tạo trong thời đại số từ 4 tuổi
+        với ngôn ngữ Lập trình Scratch Jr, Robot Uaro, Công nghệ 3D Maker Empire
+      </p>
+      <a href="#" class="btn btn-primary">Learn now!</a>
+    </div>
+  </div>
+</div>
 
 {% endblock content %}
